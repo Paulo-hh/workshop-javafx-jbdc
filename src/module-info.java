@@ -8,4 +8,5 @@ module Workshop_javafx_jbdc {
 	opens model.entities to javafx.graphics, javafx.fxml, javafx.base;
     opens model.services to javafx.graphics, javafx.fxml;
     requires java.sql;
+	requires javafx.base;
 }
